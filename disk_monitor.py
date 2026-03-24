@@ -36,11 +36,11 @@ for letter in string.ascii_uppercase:
 
     # Status logic
     if free_gb < 10:
-        status = "🔴 CRITICAL"
+        status = "CRITICAL"
     elif free_gb < 20:
-        status = "🟡 WARNING"
+        status = "WARNING"
     else:
-        status = "🟢 HEALTHY"
+        status = "HEALTHY"
 
     log(f"Status: {status}")
     log("----------------------")
