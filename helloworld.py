@@ -112,3 +112,85 @@ consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(a)
+
+
+print()
+
+
+
+for i in "banana":
+    print(i)
+
+
+
+b = "HelloWrold"
+
+print(b[0:7])
+
+print(len(b))
+print(b)
+
+print()
+
+
+txt = "The best things in life are free!"
+print("free" in txt)
+
+
+
+a = "hello sachin"
+
+print(a.upper())
+
+print()
+
+b = "HELLO SACHIN"
+
+print(b.lower())
+
+print()
+
+c = "Replace"
+
+print(c.replace("R","r"))
+
+print()
+
+
+
+d = "Sachin , Sharma"
+
+print(d.split(","))
+
+print()
+
+e = "Gautam"
+f = "Roy"
+
+c = e + f
+print(c)
+
+
+print()
+
+i = e + " " + f
+
+print(i)
+
+print()
+
+
+numberone = 200
+text = "My name is John Wick " + str(numberone)
+
+print(text)
+
+
+print()
+
+age = 36
+#This will produce an error:
+txt = "My name is John, I am " + str(age)
+print(txt)
+
+
