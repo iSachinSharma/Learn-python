@@ -11,3 +11,12 @@ thislist[1:3] = ["watermelon"]
 print(thislist)
 
 print("Hello")
+
+thislist.insert(1,"Hello")
+
+print(thislist)
+
+
+
+
+
